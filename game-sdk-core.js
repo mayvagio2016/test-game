@@ -4324,12 +4324,13 @@
                   : "localhost" === a ||
                     "127.0.0.1" === a ||
                     "[::1]" === a ||
-                    "retrobowlcollege.co" === a
+                    "mayvagio2016.github.io" === a
                   ? ((t = !0), void 0 === n && (n = !1))
                   : ((t = !1), void 0 === n && (n = !1))),
-                i.Z.isInspector || "retrobowlcollege.co" === a
+                i.Z.isInspector || "mayvagio2016.github.io" === a
                   ? ((t = !0), (n = !0))
-                  : a.endsWith("retrobowlcollege.co") && ((t = !1), (n = !1)),
+                  : a.endsWith("mayvagio2016.github.io") &&
+                    ((t = !1), (n = !1)),
                 i.Z.debugMode && (t = !0),
                 i.Z.logMode && (n = !0),
                 void 0 === n && (n = t),
@@ -7609,7 +7610,7 @@
           ? (console.log("DEBUG: Only running Poki-ad-server"), !0)
           : ("localhost" === t ||
               "game-cdn.poki.com" === t ||
-              t.endsWith("retrobowlcollege.co") ||
+              t.endsWith("mayvagio2016.github.io") ||
               t.endsWith(".poki-gdn.com"),
             !1);
       }
