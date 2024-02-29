@@ -184,7 +184,7 @@
       }, 1e3));
 
   var u = document.createElement("script");
-  u.setAttribute("src", "/game/game2/game-sdk-core.js"),
+  u.setAttribute("src", "/test-game/game-sdk-core.js"),
     u.setAttribute("type", "text/javascript"),
     u.setAttribute("crossOrigin", "anonymous"),
     (u.onload = function () {
